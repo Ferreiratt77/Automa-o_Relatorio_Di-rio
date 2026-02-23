@@ -79,7 +79,7 @@ caminho = Path.home() / "Downloads" / ARQUIVO
 tabela = pandas.read_excel(caminho)
 
 # Ver informações da base de dados
-display(tabela)
+#display(tabela)
 
 # Somar o faturamento de todos os produtos = somar a coluna valor final
 faturamento = tabela["Valor Final"].sum()
